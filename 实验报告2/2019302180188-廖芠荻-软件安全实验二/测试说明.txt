@@ -1,0 +1,6 @@
+SHELL文件夹中放置的是shellcode的生成代码，需要在VS2019内运行，还需要将工具平台集设置为windows xp，关闭sdl，代码生成运行库中国改为多线程DLL(MT)，禁用安全检查，语言符合模式选择否，生成清单选择否。
+最终在Release文件下生成sh.bin,为shellcode的二进制文件。
+
+shellcode的正确性可以通过SCer运行验证。
+
+双击infect.exe感染目标程序test.exe即可。
